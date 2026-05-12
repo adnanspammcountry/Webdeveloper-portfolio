@@ -246,8 +246,23 @@ footer input[type=text],footer input[type="email"],textarea {
     .skill-container,
     .resume-container,
     footer,
-    .about-items{
+    .about-items,
+    .banner,
+    nav,
+    nav>ul{
       flex-direction: column;
+    }
+    nav >ul {
+      gap:20px ;
+    }
+    .banner{
+      margin: 20px;
+    }
+    .banner-profile-pic{
+      width: 100%;
+    }
+    .header{
+      background-image: none;
     }
     footer, .about{
       padding: 20px;
@@ -255,7 +270,9 @@ footer input[type=text],footer input[type="email"],textarea {
     .footer-column{
       width: 100%;
     }
-    footer input[type=text],footer input[type="email"],textarea {
+    footer input[type=text],
+    footer input[type="email"],
+    textarea {
       width: calc(100% - 40px);
     }
 }
